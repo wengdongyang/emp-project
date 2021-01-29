@@ -1,0 +1,9 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true //支持 eslint 自动格式化
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib", //支持 ts css module type check
+  "typescript.enablePromptUseWorkspaceTsdk": true, //支持 ts css module type check
+  "empSyncBase.autoUpdate": true,
+  "empSyncBase.fileURL": []
+}

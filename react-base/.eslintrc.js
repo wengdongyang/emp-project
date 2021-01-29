@@ -1,0 +1,30 @@
+module.exports = {
+  extends: ['@efox/eslint-config-react-prittier-ts'],
+  rules: {
+    'react/prop-types': 0,
+    'react-hooks/exhaustive-deps': 0,
+    '@typescript-eslint/no-var-requires': 0,
+    'react/react-in-jsx-scope': 0,
+    '@typescript-eslint/explicit-function-return-type': 0,
+    '@typescript-eslint/no-empty-function': 0,
+    '@typescript-eslint/no-explicit-any': 0,
+    '@typescript-eslint/no-unused-vars': 0,
+    'react-hooks/rules-of-hooks': 'error',
+    'prettier/prettier': [
+      'error',
+      {
+        printWidth: 800,
+        semi: false,
+        singleQuote: true,
+        trailingComma: 'all',
+        bracketSpacing: false,
+        jsxBracketSameLine: true,
+        arrowParens: 'avoid',
+        insertPragma: false,
+        tabWidth: 2,
+        useTabs: false,
+        endOfLine: 'auto',
+      },
+    ],
+  },
+}

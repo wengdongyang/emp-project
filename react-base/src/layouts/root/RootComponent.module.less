@@ -1,0 +1,72 @@
+/*
+ * @Author: wdy
+ * @Date: 2019-08-13 15:52:31
+ * @Last Modified by: wdy
+ * @Last Modified time: 2021-01-29 17:33:29
+ */
+
+.layout {
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .sider {
+    background-color: #fff;
+
+    .logo {
+      width: 100%;
+      height: 64px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .menus {
+      overflow-y: auto;
+
+      width: 100%;
+      height: calc(~'100vh - 64px');
+
+      .menu-icon {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .sub-layout {
+    .sub-header {
+      padding: 0 20px;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .trigger-icon {
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 20px;
+        color: #fff;
+      }
+
+      .title {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.5;
+        flex: 1;
+        margin-right: 20px;
+        margin-bottom: 0;
+        color: #fff;
+      }
+    }
+
+    .sub-content {
+      overflow: hidden;
+
+      height: calc(~'100vh - 64px');
+      padding: 10px;
+    }
+  }
+}
