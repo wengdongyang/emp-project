@@ -2,16 +2,17 @@
  * @Author: wdy
  * @Date: 2021-01-27 17:35:13
  * @Last Modified by: wdy
- * @Last Modified time: 2021-01-29 16:08:28
+ * @Last Modified time: 2021-02-01 17:34:56
  */
 const path = require('path')
 const packagePath = path.join(path.resolve('./'), 'package.json')
-const {dependencies} = require(packagePath)
+
 const empConfig = {
   name: 'empReactExport',
   remotes: {
     '@emp/react-base': 'empReactBase@http://localhost:8001/emp.js',
     '@emp/react-project': 'empReactProject@http://localhost:8002/emp.js',
+    '@emp/vue2-project': 'vue2Project@http://localhost:8003/emp.js',
   },
   exposes: {},
   shared: {
@@ -32,6 +33,8 @@ const empConfig = {
     redux: {eager: true, singleton: true, requiredVersion: '^4.0.5'},
     'redux-persist': {eager: true, singleton: true, requiredVersion: '^6.0.0'},
     'redux-thunk': {eager: true, singleton: true, requiredVersion: '^2.3.0'},
+    vue: {eager: true, singleton: true, requiredVersion: '^2.6.12'},
+    vuera: {eager: true, singleton: true, requiredVersion: '^0.2.7'},
   },
 }
 

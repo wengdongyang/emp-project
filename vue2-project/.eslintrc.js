@@ -1,20 +1,16 @@
 module.exports = {
-  root: true,
-  parserOptions: {
-    parser: 'babel-eslint'
-  },
   env: {
-    browser: true
+    browser: true,
+    es2021: true
   },
-  extends: ['standard'],
-  // add your custom rules here
+  extends: ['eslint:recommended', 'plugin:vue/essential'],
+  parserOptions: {
+    ecmaVersion: 12,
+    sourceType: 'module'
+  },
+  plugins: ['vue'],
   rules: {
-    // allow async-await
-    'generator-star-spacing': 'off',
-    // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'space-before-function-paren': 0,
-    'func-call-spacing': 0,
-    semi: 0
+    'no-undef': 0,
+    'no-unused-vars': 0
   }
 };

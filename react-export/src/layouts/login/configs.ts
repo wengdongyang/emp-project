@@ -2,7 +2,7 @@
  * @Author: wdy
  * @Date: 2021-01-07 15:15:22
  * @Last Modified by: wdy
- * @Last Modified time: 2021-01-28 14:11:30
+ * @Last Modified time: 2021-02-01 16:21:40
  */
 import {TypeMenu, TypeOs} from './index'
 
@@ -20,7 +20,10 @@ const baseMenuConfigs: TypeMenu[] = [
     type: MENU,
     name: '项目模块',
     path: 'inspectionsMenu',
-    children: [{type: INTERNAL_PAGE, name: '项目模块', owner: 'project', path: 'project'}],
+    children: [
+      {type: INTERNAL_PAGE, name: 'react项目模块', owner: 'project', path: 'project'},
+      {type: INTERNAL_PAGE, name: 'vue2项目模块', owner: 'project', path: 'vue2project'},
+    ],
   },
 ]
 

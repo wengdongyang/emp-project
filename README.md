@@ -28,3 +28,4 @@ export是输出模块（它的前置模块是base和project）。也就是最终
 2. 启动开发项目的时候。使用命令yarn run dev:hot。
 3. .vscode下面的settings.json文件是一个vscode插件(emp-aync-base)的配置。它主要用于同步生成src下面的@emp-***.d.ts文件。(这一步也可以使用命令 yarn tss完成)。注意本身应该有一个和自己目录同名的文件（ @emp.d.ts 文件 ）主要声明本项目模块的ts声明。
 
+# emp-config.js #

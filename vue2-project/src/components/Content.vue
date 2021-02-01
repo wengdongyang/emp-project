@@ -1,13 +1,12 @@
 <template>
-  <div>Vue2</div>
+  <div style="color: red">{{ title }}</div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      title: "Hello Vue2",
-    };
-  },
+  name: "Content",
+  data: () => ({
+    title: "vue 2",
+  }),
 };
 </script>
