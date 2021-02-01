@@ -1,1 +1,0 @@
-(self.webpackChunk_emp_react_base=self.webpackChunk_emp_react_base||[]).push([["src_types_index_ts"],{714:function(){}}]);

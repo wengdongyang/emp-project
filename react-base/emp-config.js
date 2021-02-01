@@ -2,7 +2,7 @@
  * @Author: wdy
  * @Date: 2021-01-27 17:28:33
  * @Last Modified by: wdy
- * @Last Modified time: 2021-01-29 15:59:45
+ * @Last Modified time: 2021-02-01 15:38:34
  */
 const path = require('path')
 const packagePath = path.join(path.resolve('./'), 'package.json')

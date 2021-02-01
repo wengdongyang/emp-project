@@ -1,0 +1,41 @@
+{
+  "name": "@empvue2/project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@efox/emp-cli": "latest",
+    "@efox/emp-vue2": "latest",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.4.0",
+    "antd": "^4.11.2",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "icomoon-react": "^2.0.19",
+    "jshashes": "^1.0.8",
+    "lodash": "^4.17.20",
+    "minireset.css": "^0.0.7",
+    "qiankun": "^2.3.6",
+    "qs": "^6.9.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "vue": "^2.6.12",
+    "vuera": "^0.2.7"
+  },
+  "scripts": {
+    "dev": "emp dev",
+    "build": "emp build --env prod",
+    "start": "emp serve",
+    "stat": "emp build --analyze",
+    "emp": "emp"
+  }
+}
